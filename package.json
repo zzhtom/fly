@@ -1,14 +1,10 @@
 {
   "name": "flyio2",
-  "version": "0.6.15",
+  "version": "0.6.17",
   "main": "node-index.js",
   "browser": "index.js",
   "weapp": "dist/npm/wx.js",
-  "author": {
-    "name": "wendux",
-    "email": "824783146@qq.com",
-    "url": "https://github.com/wendux/fly"
-  },
+  "author": "wendux <824783146@qq.com> (https://github.com/wendux/fly)",
   "license": "MIT",
   "description": "Lightweigh Promise based HTTP client for the browser and node.js",
   "keywords": [
@@ -17,7 +13,7 @@
   ],
   "respository": {
     "type": "git",
-    "url": "https://github.com/zzhtom/fly"
+    "url": "https://github.com/wendux/fly"
   },
   "homepage": "https://github.com/wendux/fly",
   "bugs": {
@@ -52,5 +48,9 @@
   },
   "dependencies": {
     "request": "^2.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzhtom/fly.git"
   }
 }
